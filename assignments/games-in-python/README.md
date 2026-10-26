@@ -1,19 +1,38 @@
 
-# 🎮 Desafio: Jogo da Forca
+# 📘 Assignment: Jogo da Forca
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+## 🎯 Objective
 
-## 🎯 O Que Você Vai Construir
+Implemente um jogo da forca em Python para praticar strings, listas, condicionais, loops e entrada de dados. O jogador deve descobrir uma palavra escolhida aleatoriamente antes de esgotar as tentativas permitidas.
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+## 📝 Tasks
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+### 🛠️ Preparar a palavra e os palpites
 
-## ✅ Requisitos Obrigatórios
+#### Descrição
 
-Seu jogo deve:
-- Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+Complete a seleção da palavra secreta e a exibição do progresso, permitindo que o jogador informe letras para revelar a palavra.
+
+#### Requisitos
+
+O programa concluído deve:
+
+- Selecionar aleatoriamente uma palavra da lista `words` fornecida no código inicial.
+- Exibir cada letra ainda não descoberta como um sublinhado, mantendo as letras descobertas em suas posições.
+- Ler os palpites do jogador e registrar as letras já informadas.
+- Atualizar o progresso quando o palpite corresponder a uma ou mais letras da palavra.
+
+### 🛠️ Controlar tentativas e encerrar a partida
+
+#### Descrição
+
+Implemente o loop principal do jogo e encerre a partida quando o jogador descobrir a palavra ou atingir o limite de tentativas incorretas.
+
+#### Requisitos
+
+O programa concluído deve:
+
+- Definir e acompanhar o limite de tentativas incorretas usando `max_incorrect` e `incorrect_guesses`.
+- Informar quando uma letra já tiver sido tentada, sem penalizar o jogador novamente pelo mesmo palpite.
+- Encerrar a partida quando todas as letras da palavra forem descobertas ou o limite de tentativas incorretas for atingido.
+- Exibir uma mensagem de vitória ou derrota e revelar a palavra secreta em caso de derrota.
