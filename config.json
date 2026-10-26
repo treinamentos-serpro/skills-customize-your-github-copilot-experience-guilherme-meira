@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "fastapi-game-leaderboard",
+      "title": "Game Leaderboard API with FastAPI",
+      "description": "Build an in-memory game leaderboard API with filtering, sorting, and Pydantic validation.",
+      "path": "assignments/fastapi-game-leaderboard",
+      "dueDate": "2026-11-02",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter_code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
